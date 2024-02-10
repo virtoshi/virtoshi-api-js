@@ -16,6 +16,6 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn build
       - name: Run Integration Tests
-        run: yarn test
         env:
           API_KEY: ${{ secrets.API_KEY }}
+        run: yarn test
