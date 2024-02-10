@@ -11,7 +11,6 @@ npm install @virtoshi/api
 const { VirtoshiClient } = require('@virtoshi/api');
 
 const client = new VirtoshiClient({
-  endpoint: 'https://example.com/api',
   apiKey: 'your-api-token',
 });
 
